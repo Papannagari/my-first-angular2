@@ -12,6 +12,7 @@ var forms_1 = require("@angular/forms");
 var app_component_1 = require("./app.component");
 var home_component_1 = require("./components/home/home.component");
 var about_component_1 = require("./components/about/about.component");
+var sample_component_1 = require("./sample.component");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -26,7 +27,8 @@ AppModule = __decorate([
         declarations: [
             app_component_1.AppComponent,
             home_component_1.HomeComponent,
-            about_component_1.AboutComponent
+            about_component_1.AboutComponent,
+            sample_component_1.SampleComponent
         ],
         bootstrap: [app_component_1.AppComponent]
     })
